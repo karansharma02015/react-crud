@@ -73,7 +73,7 @@ function Put() {
                         {errors.fullName && touched.fullName ? (<p className='text-danger'>{errors.fullName}</p>) : null}
                     </label>
 
-                    <label htmlFor='phonenumber' className='f-name'>Mobile
+                    <label htmlFor='phonenumber' className='f-name'>Mobile Number
                         <input placeholder='Mobile' type='number' name='mobile' id="mobile" className='form-control w-100' value={values.mobile} onChange={handleChange} onBlur={handleBlur} />
                         <div>{errors.mobile && touched.mobile ? (<p className='text-danger'>{errors.mobile}</p>) : null}</div>
                     </label>
