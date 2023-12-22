@@ -17,7 +17,7 @@ export const signUpSchema = Yup.object({
 
     confirmPassword: Yup.string().oneOf([Yup.ref("password")], "password Must Match").required('Please enter password'),
 
-    checkBox: Yup.boolean().oneOf([true], 'Please check the box'),
+    checkBox: Yup.boolean().oneOf([true], 'Please check the box').required('please check'),
 
     selectedOption: Yup.string().required('Please select a state'),
 
