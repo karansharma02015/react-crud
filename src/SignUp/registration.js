@@ -145,7 +145,7 @@ function Registration() {
                     </div>
                     
 
-                    <button type='submit' className='btn btn-danger mt-4'>Submit</button>
+                    <button type='submit' className='btn btn-danger mt-4'>Submit button</button>
 
                 </div>
             </form>

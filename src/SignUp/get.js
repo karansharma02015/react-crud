@@ -61,7 +61,7 @@ function Get() {
                 <Table.Header>
                     <Table.Row>
                         <Table.HeaderCell>Full Name</Table.HeaderCell>
-                        <Table.HeaderCell>Mobile</Table.HeaderCell>
+                        <Table.HeaderCell>Mobile Number</Table.HeaderCell>
                         <Table.HeaderCell>Email</Table.HeaderCell>
                         <Table.HeaderCell>Password</Table.HeaderCell>
                         <Table.HeaderCell>gender</Table.HeaderCell>
